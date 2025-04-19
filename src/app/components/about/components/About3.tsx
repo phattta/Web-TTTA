@@ -2,10 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 
 const teamMembers = [
-  { name: 'Name', position: 'Position', image: '/About3-1.svg', width: 270, height: 300 },
-  { name: 'Name', position: 'Position', image: '/About3-1.svg', width: 270, height: 300 },
-  { name: 'Name', position: 'Position', image: '/About3-1.svg', width: 270, height: 300 },
-  { name: 'Name', position: 'Position', image: '/About3-1.svg', width: 270, height: 300 }
+  { name: 'Name', position: 'Position', image: '/Combined Shape.svg', width: 270, height: 300 },
+  { name: 'Name', position: 'Position', image: '/Combined Shape.svg', width: 270, height: 300 },
+  { name: 'Name', position: 'Position', image: '/Combined Shape.svg', width: 270, height: 300 },
+  { name: 'Name', position: 'Position', image: '/Combined Shape.svg', width: 270, height: 300 }
 ];
 
 const About3: React.FC = () => {
