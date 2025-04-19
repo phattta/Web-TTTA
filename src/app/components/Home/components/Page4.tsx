@@ -12,7 +12,7 @@ const Page4 = () => {
             <br className="hidden sm:block" /> goes just here
           </h2>
           <p className="text-gray-400 text-sm sm:text-base lg:text-lg lg:-ml-[20px] max-w-xl">
-            When Im with you, everything feels right.. When im with you, nothing else matters. Do you have any idea how much I adore you? You've been a blessing to my life. All love is sweet, but ours is the sweetest. When I'm feeling lost
+            When I&apos;m with you, everything feels right.. When I&apos;m with you, nothing else matters. Do you have any idea how much I adore you? You&apos;ve been a blessing to my life. All love is sweet, but ours is the sweetest. When I&apos;m feeling lost
           </p>
 
           {/* Feature List */}

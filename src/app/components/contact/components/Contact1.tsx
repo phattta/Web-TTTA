@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Contact: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -70,9 +71,11 @@ const Contact: React.FC = () => {
               <p className="text-gray-400 mb-6">Say something to start a live chat!</p>
               <div className="space-y-8 sm:space-y-12 mt-[40px] sm:mt-[80px]">
                 <p className="flex items-center space-x-2">
-                  <img 
+                  <Image 
                     src="/bxs_phone-call.svg" 
                     alt="Phone Icon" 
+                    width={24}
+                    height={24}
                     className="w-5 sm:w-6 h-5 sm:h-6"
                   />
                   <span className="text-sm sm:text-base">+66 (0) 89 999 9999</span>
