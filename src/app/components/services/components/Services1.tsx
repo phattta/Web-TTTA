@@ -7,7 +7,7 @@ const ServiceCard = memo(({ item }: { item: number }) => (
   <div className="flex flex-col md:flex-row bg-white text-black border-2 w-full max-w-[900px] lg:max-w-[1203px] min-h-[305px] overflow-hidden mx-auto">
     <div className="w-full md:w-[40%] lg:w-1/3 bg-gray-300 flex items-center justify-center md:mt-[10px] min-h-[250px] md:min-h-[295px] overflow-hidden rounded-lg">
       <Image
-        src="/Icons-feature.svg"
+        src="/ggg.svg"
         alt="Service Image"
         width={400}
         height={300}

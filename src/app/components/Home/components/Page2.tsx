@@ -46,10 +46,11 @@ const servicesData = [
 const Page2 = () => {
   return (
     <section
-      className="relative py-8 md:py-10 px-4 md:px-5 overflow-x-hidden"
+      className="relative py-8 md:py-10 px-4 md:px-5"
       style={{
         backgroundColor: "black",
         minHeight: "100vh",
+        overflow: "hidden", // Hide both horizontal and vertical overflow
       }}
     >
       {/* ภาพพื้นหลัง Gradients.jpg */}
